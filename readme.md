@@ -3,7 +3,11 @@ Solution to this problem :
 
 Inputs: 
   "if ( a == 5 ) {  b [0] = 10; } "  --> this is valid.
+
   " ( { anything } ) { < {} > } "   --> this is valid.
+
   " (( [] <> ))"   --> this is valid.
+
   ")( {} "   --> this is NOT valid as closing paranthesis appears before opening in first char.
+
   "{[{}}"   --> this is NOT valid as closing square brakcet is absent.
